@@ -1,0 +1,38 @@
+.footer {
+  background-color: #1a1a1a;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 40px 20px;
+  }
+  
+  .social-links {
+    margin-top: 50px;
+    padding: 20px;
+  }
+  
+  
+  .social-links a {
+  font-size: 37px;
+  margin-right: 20px;
+  }
+  
+  .social-links a:hover svg {
+  transform: scale(1.2);
+  transition: all 0.2s ease-in-out;
+ 
+  }
+  
+
+  
+  @media only screen and (max-width: 768px) {
+  .social-links {
+  margin-right: 0;
+  margin-bottom: 20px;
+  }
+  .social-links a {
+  margin-right: 20px;
+  }
+  }

@@ -1,0 +1,67 @@
+.titulo img{
+    width: 140px;
+    height: 140px;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.titulo{
+padding: 40px;
+}
+
+.inicio{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 2%;
+  
+}
+
+
+.inicio p{
+    padding: 30px;
+    font-size: 20px;
+    text-align: justify;
+    margin-top: 3%;
+    margin-right: 5%;
+    font-size: 18px;
+
+}
+
+.skills{
+    margin-top: 5%;
+    margin-right: 2%;
+ 
+}
+
+.skills img{
+    width: 100px;
+    height: 70px;
+    border-radius: 20px;
+    margin-top: 20px;
+
+    margin: 10px;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .titulo img {
+        width: 100px;
+        height: 100px;
+        margin: 5px;
+    }
+
+    .titulo {
+        padding: 20px;
+    }
+
+    .inicio p {
+        padding: 20px;
+        font-size: 16px;
+        margin-right: 0;
+    }
+
+    .skills img {
+        display: none;
+    }
+}
